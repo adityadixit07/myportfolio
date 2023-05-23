@@ -55,12 +55,12 @@ const Header = () => {
         <a href="https://www.linkedin.com/in/adityakumardixit/" target="_blank" rel="noreferrer"><span><AiFillLinkedin /></span></a>
         <a href="mailto:officialadityadixit@gmail.com" target="_blank" rel="noreferrer"><span><MdEmail/></span></a>
         <a href="https://drive.google.com/file/d/1EKiYNnHJfC8Hd8dBLoV-fp98DVryMmwR/view?usp=sharing" target="_blank" rel="noreferrer"><span><AiFillFileText/></span></a>
-        <a href="mylink.com" target="_blank"rel="noreferrer" ><span><HiGlobeAsiaAustralia/></span></a>
+        <a href="https://adityadixit.netlify.app/" target="_blank"rel="noreferrer" ><span><HiGlobeAsiaAustralia/></span></a>
         
       </div>
       <div className="buttons">
         <a href="https://drive.google.com/file/d/1EKiYNnHJfC8Hd8dBLoV-fp98DVryMmwR/view?usp=sharing" target="_blank" rel="noreferrer"><button className="btns">Resume</button></a>
-        <a href="https://github.com/adityadixit07" target="_blank" rel="noreferrer"><button className="btns">Projects<AiOutlineArrowRight/></button></a>
+        <a href="https://github.com/adityadixit07" target="_blank" rel="noreferrer"><button className="btns" to="/projects">Projects<AiOutlineArrowRight/></button></a>
           
       </div>
     <div className="down-arrow">
