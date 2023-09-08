@@ -1,0 +1,14 @@
+.coding-links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.coding-links a svg{
+    margin: 2rem;
+    font-size: 2rem;
+    color: black;
+}
+.coding-links a svg:hover{
+    background-color: navajowhite;
+}

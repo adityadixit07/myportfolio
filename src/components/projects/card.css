@@ -1,0 +1,133 @@
+.project-description li{
+    list-style: disc !important;
+}
+
+.projects_container{
+    width: 80%;
+    margin: 0 auto;
+}
+.project{
+    display:flex;
+    width: 100%;
+    margin: 6% 0% 6% 0%;
+    border-radius: 30px;
+    transition: all 0.5s ease 0s;
+}
+.project:hover{
+    transform: scale(1.04);
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project_videocontainer{
+    flex-basis: 65%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project_videocontainer>div{
+    width: 90%;
+    height: 90%;
+    border: 10px solid #bdbddd;
+    border-radius: 30px;
+    margin-top: 0.9rem;
+}
+.project_videocontainer>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 19px;
+}
+.project_information{
+    flex-basis:35%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3% 4% 3%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.project_information h2{
+    margin-top: 1em;
+}
+.project_information p{
+    margin-top: 1em;
+    text-align: center;
+}
+/* .project_information>div:nth-child(3)>svg:hover{
+    font-size: 3.3em;
+} */
+.project_information>div:nth-child(4){
+    margin-top: 0.6em;
+    display: flex;
+}
+.onbt{
+    margin: 0 1vw 0 1vw;
+}
+.btn{
+    display: block;
+    cursor: pointer;
+    padding: 0.8em 1.4em;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease-in-out;
+    color: #040438;
+}
+.btn--outline{
+    /*  color clr primary */
+    border: 2px solid #90a0d9; 
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.btn--outline:hover,.btn--outline:focus{
+    color: #23283e;
+    font-weight: 500;
+}
+.btn--outline:before{
+    content: '';
+    position: absolute;
+    background-color: var(--clr-primary);
+    right: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: right 0.2s ease-in-out;
+}
+.btn--outline:hover:before,.btn--outline:focus:before{
+    right: 0;
+}
+.project_information h3{
+    margin-top: 1.6em;
+}
+.project_information::-webkit-scrollbar{
+    display:none;
+}
+.icons >svg{
+    font-size: 1.6rem;
+    margin: 0.5rem;
+    color: black;
+
+}
+@media (max-width:600px) {
+    .project{
+        flex-direction: column;
+    }
+    .project_videocontainer{
+        flex-basis: 40%;
+    }
+    .project_information{
+        flex-basis: 60%;
+    }
+    .btn{
+        padding:0.4em 1em ;
+        margin: 0 0.9rem 0 0.5rem;
+        font-size: 10px;
+    }
+    .project_videocontainer>div{
+        border:none;
+
+    }
+}
+

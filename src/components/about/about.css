@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+}
+.image img{
+    border-radius: 50px;
+    width: 354px;
+    height: 354px;
+}
+.descriptions{
+    margin-left: 1rem;
+}
+.descriptions span{
+    font-family: 'Times New Roman', Times, serif;
+    color: #00001f;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.interest{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.interest span{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.icons{
+    margin-left: 1rem;
+}
+.icons h4{
+    color: #2d2828;
+}
+.icons h4 svg{
+    margin-right: 0.7rem;
+}
+
+@media (max-width:600px) {
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .image img{
+        width: 80%;
+        margin-left: 2rem;
+        object-fit: cover;
+    }
+}

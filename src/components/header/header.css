@@ -1,0 +1,116 @@
+.header {
+    padding-top: 10px;
+    /* background-color: whitesmoke; */
+    width: auto;
+    /* height: 70vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    padding-top: 2rem;
+}
+
+.name h1 {
+    letter-spacing: 4px;
+}
+
+.name h1 span {
+    color: orangered;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.typewriter-text-1 span {
+    font-size: 1.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.typewriter-text-2 {
+    font-size: 1.5rem;
+    color: #22223d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 2;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 2;
+    text-align: center;
+    color: #383838;
+    font-weight: 400;
+}
+
+.icons {
+    margin-top: 1rem;
+}
+
+.icons span {
+    margin: 1rem;
+    font-size:2rem;
+    cursor: pointer;
+}
+.icons span:first-child{
+    color: black;
+}
+.icons span:last-child{
+    color:black;
+}
+.buttons{
+    margin-top: 1.3rem;
+}
+.buttons button{
+    margin: 1rem;
+}
+.buttons .btns{
+    padding:0.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    background-color: #b8b8ff;
+    border-radius: 5px;
+    color: rgb(19, 0, 0);
+
+}
+.btns:hover{
+    font-weight: 500;
+    background-color: #b8b8ff !important;
+}
+.buttons svg{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.down-arrow svg{
+    margin-top: 3rem;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+    font-size: 2rem;
+    cursor: pointer;
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+@media (max-width:600px) {
+    .name h1{
+        margin-left: 2rem;
+    }
+    .typewriter-text-1 span{
+        letter-spacing:2px;
+        font-family: fantasy;
+    }
+}
