@@ -35,7 +35,7 @@ const Navbar = () => {
               <NavLink to="contact" onClick={toggleNav}>Contact</NavLink>
             </li>
             <li>
-              <NavLink to="https://drive.google.com/file/d/1EKiYNnHJfC8Hd8dBLoV-fp98DVryMmwR/view?usp=sharingg" target="_blank" onClick={toggleNav}>Resume</NavLink>
+              <NavLink to="https://drive.google.com/file/d/1MmJIpCqbPnp114Lpcwvan3uIXq4U0R42/view?usp=sharing" target="_blank" onClick={toggleNav}>Resume</NavLink>
             </li>
           </ul>
       </div>
